@@ -7738,6 +7738,13 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/bunker)
+"sz" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/mob/living/simple_animal/pet/dog/protectron,
+/turf/open/floor/plating/f13/inside,
+/area/f13/underground/cave)
 "sA" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/barber{
@@ -7746,6 +7753,31 @@
 	tag = "icon-bluerustychess2"
 	},
 /area/f13/bunker)
+"sB" = (
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
+"sC" = (
+/obj/machinery/mineral/wasteland_vendor/food,
+/turf/open/floor/plating/f13/inside,
+/area/f13/underground/cave)
+"sD" = (
+/turf/closed/indestructible/fakeglass,
+/area/f13/underground/cave)
+"sE" = (
+/obj/machinery/mineral/wasteland_vendor/medical,
+/turf/open/floor/plating/f13/inside,
+/area/f13/underground/cave)
+"sF" = (
+/turf/closed/indestructible/opshuttle,
+/area/f13/underground/cave)
+"sG" = (
+/obj/effect/decal/remains/human,
+/obj/item/clothing/shoes/workboots/mining,
+/obj/item/clothing/under/sl_suit,
+/obj/item/clothing/head/fedora,
+/obj/item/gun/ballistic/automatic/surplus,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/tunnel)
 "sJ" = (
 /obj/structure/table/wood,
 /obj/item/pen,
@@ -66604,7 +66636,7 @@ UT
 UT
 Qa
 Qa
-Qa
+sG
 Qa
 Qa
 UT
@@ -70462,7 +70494,7 @@ ei
 UT
 Qa
 Qa
-UT
+sB
 UT
 ei
 ei
@@ -70716,11 +70748,11 @@ ei
 ei
 ei
 ei
-UT
-UT
-UT
-UT
-ei
+sF
+sE
+sD
+sC
+sF
 ei
 ei
 ei
@@ -70973,11 +71005,11 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
+sF
+sF
+sz
+sF
+sF
 ei
 ei
 ei
@@ -71231,9 +71263,9 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
+sF
+sF
+sF
 ei
 ei
 ei

@@ -342,7 +342,7 @@ NCR Heavy Trooper
 	faction = "NCR"
 	total_positions = 2
 	spawn_positions = 2
-	description = "You are a Sergeant who has been selected for the special duty of Heavy Trooper. You are exceptionally physically fit, being conditioned to wear the many, many pounds of salvaged power armor; and trained with your R84 LMG. You are the poster-child of the NCR Embassy, and should act accordingly."
+	description = "You are a Sergeant who has been selected for the special duty of Heavy Trooper. You are exceptionally physically fit, being conditioned to wear the many, many pounds of salvaged power armor; and trained with heavy weaponry. You are the poster-child of the NCR Embassy, and should act accordingly."
 	supervisors = "the officers"
 	selection_color = "#fff5cc"
 
@@ -414,7 +414,7 @@ NCR Military Police
 	suit = 			/obj/item/clothing/suit/armor/f13/ncrarmor
 	r_hand = 		/obj/item/melee/classic_baton/telescopic
 	l_hand = 		/obj/item/shield/riot/tele
-	belt =          /obj/item/storage/belt/military/NCR_Bandolier
+	belt =          /obj/item/storage/belt/grenade/ncr/mp
 	r_pocket =		/obj/item/restraints/handcuffs
 	glasses = 		/obj/item/clothing/glasses/sunglasses/big
 	backpack_contents = list(
@@ -440,8 +440,8 @@ Trooper
 	outfit = /datum/outfit/job/ncr/f13trooper
 
 	loadout_options = list(
-	/datum/outfit/loadout/trooperfrontline, //Service rifle
-	/datum/outfit/loadout/trooperranged //Hunting rifle
+	/datum/outfit/loadout/trooperfrontline, //Grenadier.
+	/datum/outfit/loadout/trooperranged //Generic Service Rifle carrier.
 	)
 
 /datum/outfit/job/ncr/f13trooper
@@ -464,7 +464,7 @@ Trooper
 /datum/outfit/loadout/trooperfrontline
 	name = "Grenadier"
 	suit_store = 	/obj/item/gun/ballistic/automatic/pistol/ninemil
-	belt = /obj/item/storage/belt/grenade/ncr
+	belt = /obj/item/storage/belt/grenade/ncr/trooper
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m9mm=2)
 
@@ -475,7 +475,7 @@ Trooper
 		/obj/item/ammo_box/magazine/m556/rifle=3)
 
 /*
-Recruit
+Non-Combatant
 */
 /datum/job/ncr/f13recruit
 	title = "NCR Non-Combatant"
@@ -526,9 +526,9 @@ Veteran Ranger
 	outfit = /datum/outfit/job/ncr/f13vetranger
 
 	loadout_options = list(
-	/datum/outfit/loadout/vrelite, //AMR, elite armor and slower slowdown.
+	/datum/outfit/loadout/vrelite, //AMR.
 	/datum/outfit/loadout/vrrecon, //Recon duster, scoped brush gun, no slowdown.
-	/datum/outfit/loadout/vrstandard //Standard Vet Gear, minor slowdown, non-scoped brush gun.
+	/datum/outfit/loadout/vrstandard //Standard Vet Gear, minor slowdown, assault carbine.
 	)
 
 /datum/job/ncr/f13vetranger/after_spawn(mob/living/carbon/human/H, mob/M)
@@ -553,9 +553,9 @@ Veteran Ranger
 		/obj/item/storage/bag/money/small/ncrofficers)
 
 /datum/outfit/loadout/vrelite
-	name = "Elite Veteran Ranger"
-	suit = /obj/item/clothing/suit/armor/f13/rangercombat/eliteriot
-	head = /obj/item/clothing/head/helmet/f13/ncr/rangercombat/eliteriot
+	name = "Support Veteran Ranger"
+	suit = 			/obj/item/clothing/suit/armor/f13/rangercombat
+	head = 			/obj/item/clothing/head/helmet/f13/ncr/rangercombat
 	suit_store = /obj/item/gun/ballistic/shotgun/antimateriel
 	backpack_contents = list(
 		/obj/item/ammo_box/a50MG=2,
@@ -569,7 +569,7 @@ Veteran Ranger
 		/obj/item/ammo_box/tube/c4570=4)
 
 /datum/outfit/loadout/vrstandard
-	name = "Standard Veteran Ranger"
+	name = "Assault Veteran Ranger"
 	suit = 			/obj/item/clothing/suit/armor/f13/rangercombat
 	head = 			/obj/item/clothing/head/helmet/f13/ncr/rangercombat
 	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine
@@ -593,7 +593,7 @@ Ranger
 
 	loadout_options = list(
 	/datum/outfit/loadout/patrolranger, //Standard no slowdown Patrol Armor and Assault Carbine.
-	/datum/outfit/loadout/scoutranger //308 Sniper, alongside negative slowdown.
+	/datum/outfit/loadout/scoutranger //DKS 501.
 	)
 
 /datum/job/ncr/f13ranger/after_spawn(mob/living/carbon/human/H, mob/M)

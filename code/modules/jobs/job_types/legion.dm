@@ -176,8 +176,8 @@ Orator - lol no just kidding it's a not-so-useless role. :)
 	title = "Legion Libritor"
 	flag = F13LIBRITOR
 	faction = "Legion"
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are, effectively, the counter to the Bear's 'heavy troopers', as you carry some pretty heavy equipment yourself. A much larger gun, in fact. Don't let down your fellows."
 	supervisors = "the Centurion and Decani"
 

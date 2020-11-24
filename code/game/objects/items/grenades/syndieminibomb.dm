@@ -12,8 +12,9 @@
 	qdel(src)
 
 /obj/item/grenade/syndieminibomb/concussion
-	name = "HE Grenade"
-	desc = "A compact shrapnel grenade meant to devestate nearby organisms and cause some damage in the process. Pull pin and throw opposite direction."
+	name = "Concussion Grenade"
+	desc = "A grenade meant to kill via concussive force alone. While it produces fragments, they're practically nothing in comparison to a dedicated explosive of the sort. \
+	Because of the aforementioned lack of fragments, this boasts a small kill radius, making it safe to use in the open."
 	icon_state = "concussion"
 
 /obj/item/grenade/syndieminibomb/concussion/prime()

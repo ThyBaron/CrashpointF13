@@ -365,7 +365,7 @@
 /obj/item/storage/belt/military/snack/Initialize()
 	. = ..()
 	var/sponsor = pick("DonkCo", "Waffle Co.", "Roffle Co.", "Gorlax Marauders", "Tiger Cooperative")
-	desc = "A set of snack-tical webbing worn by athletes of the [sponsor] VR sports division."
+	desc = "A set of snack-tical webbing worn by athletes of the [sponsor] Vault-Tec sports division."
 
 /obj/item/storage/belt/military/snack/ComponentInitialize()
 	. = ..()
@@ -493,10 +493,27 @@
 
 //ncr
 /obj/item/storage/belt/grenade/ncr/PopulateContents()
+	new /obj/item/grenade/smokebomb(src)
+	new /obj/item/grenade/smokebomb(src)
+	new /obj/item/grenade/smokebomb(src)
+	new /obj/item/grenade/syndieminibomb/concussion(src)
+
+/obj/item/storage/belt/grenade/ncr/trooper/PopulateContents()
+	new /obj/item/grenade/smokebomb(src)
+	new /obj/item/grenade/smokebomb(src)
+	new /obj/item/grenade/smokebomb(src)
+	new /obj/item/grenade/smokebomb(src)
+
+/obj/item/storage/belt/grenade/ncr/mp/PopulateContents()
+	new /obj/item/grenade/chem_grenade/teargas(src)
+	new /obj/item/grenade/chem_grenade/teargas(src)
+	new /obj/item/grenade/chem_grenade/teargas(src)
+	new /obj/item/grenade/chem_grenade/teargas(src)
+	new /obj/item/grenade/chem_grenade/teargas(src)
+	new /obj/item/grenade/chem_grenade/teargas(src)
 	new /obj/item/grenade/flashbang(src)
-	new /obj/item/grenade/smokebomb(src)
-	new /obj/item/grenade/smokebomb(src)
-	new /obj/item/grenade/syndieminibomb/concussion/frag(src)
+	new /obj/item/grenade/flashbang(src)
+	new /obj/item/grenade/flashbang(src)
 
 /obj/item/storage/belt/wands
 	name = "wand belt"

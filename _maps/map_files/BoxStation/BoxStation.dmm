@@ -7102,6 +7102,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/maintenance/disposal)
+"aul" = (
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
+/mob/living/simple_animal/hostile/mimic/crate,
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "outerpavement";
+	dir = 9
+	},
+/area/f13/desert)
 "aum" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1;
@@ -12024,11 +12032,11 @@
 /turf/open/floor/plating/f13/outside/road,
 /area/f13/desert)
 "aGa" = (
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier3,
 /mob/living/simple_animal/hostile/mimic/crate,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
 /turf/open/floor/plating/f13/outside/road{
 	icon_state = "outerpavement";
-	dir = 9
+	dir = 10
 	},
 /area/f13/desert)
 "aGb" = (
@@ -35916,14 +35924,6 @@
 	icon_state = "bluefull"
 	},
 /area/f13/mountain_bunker)
-"xsP" = (
-/mob/living/simple_animal/hostile/mimic/crate,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/tier3,
-/turf/open/floor/plating/f13/outside/road{
-	icon_state = "outerpavement";
-	dir = 10
-	},
-/area/f13/desert)
 "xLO" = (
 /obj/effect/spawner/lootdrop/f13/crafting,
 /turf/open/floor/plating/f13/outside/road{
@@ -127222,26 +127222,26 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -127619,12 +127619,6 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
 aaf
 aaf
 aaf
@@ -127643,12 +127637,18 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -128016,12 +128016,6 @@ bNA
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
 aaf
 aaf
 aaf
@@ -128050,9 +128044,15 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -128416,9 +128416,6 @@ bNA
 (231,1,1) = {"
 bNA
 aaf
-bNA
-bNA
-bNA
 aaf
 aaf
 aaf
@@ -128454,8 +128451,11 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -128817,8 +128817,6 @@ bNA
 "}
 (232,1,1) = {"
 bNA
-bNA
-bNA
 aaf
 aaf
 aaf
@@ -128857,8 +128855,10 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -129260,8 +129260,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -129663,7 +129663,7 @@ aaf
 aaf
 aaf
 aaf
-bNA
+aaf
 aaf
 aaf
 aaf
@@ -130065,9 +130065,9 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -130469,8 +130469,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -130872,8 +130872,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -131275,8 +131275,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -131678,8 +131678,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -132081,9 +132081,9 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -132485,8 +132485,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -132888,7 +132888,7 @@ aaf
 aaf
 aaf
 aaf
-bNA
+aaf
 aaf
 aaf
 aaf
@@ -133290,8 +133290,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -133693,8 +133693,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -134096,8 +134096,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -134499,10 +134499,10 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -134904,9 +134904,9 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -135308,8 +135308,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -135711,8 +135711,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -136114,8 +136114,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -136517,9 +136517,9 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -136921,9 +136921,9 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -137325,10 +137325,10 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -137730,8 +137730,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -138133,7 +138133,7 @@ aaf
 aaf
 aaf
 aaf
-bNA
+aaf
 aaf
 aaf
 aaf
@@ -138535,7 +138535,7 @@ aaf
 aaf
 aaf
 aaf
-bNA
+aaf
 aaf
 aaf
 aaf
@@ -138937,7 +138937,7 @@ aaf
 aaf
 aaf
 aaf
-bNA
+aaf
 aaf
 aaf
 aaf
@@ -139339,8 +139339,8 @@ aaf
 aaf
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -139742,7 +139742,7 @@ aip
 aip
 aaf
 aaf
-bNA
+aaf
 aaf
 aaf
 aaf
@@ -140144,7 +140144,7 @@ aip
 aiy
 aaf
 aaf
-bNA
+aaf
 aaf
 aaf
 aaf
@@ -140546,8 +140546,8 @@ aip
 aiz
 aaf
 aaf
-bNA
-bNA
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -140949,7 +140949,7 @@ aip
 aaf
 aaf
 aaf
-bNA
+aaf
 aaf
 aaf
 aaf
@@ -141349,9 +141349,9 @@ aiq
 aip
 aip
 aaf
-bNA
-bNA
-bNA
+aaf
+aaf
+aaf
 aaf
 aaf
 aaf
@@ -141751,7 +141751,7 @@ air
 air
 air
 aaf
-bNA
+aaf
 aaf
 aaf
 aaf
@@ -149884,7 +149884,7 @@ aab
 aCM
 aFM
 qLG
-aGa
+aul
 aCP
 abg
 aFM
@@ -150288,7 +150288,7 @@ aaG
 aCN
 aCM
 aDU
-xsP
+aGa
 qLG
 aGn
 qLG

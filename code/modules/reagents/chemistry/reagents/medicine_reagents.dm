@@ -1405,7 +1405,7 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 /datum/reagent/medicine/radx
 	name = "Rad-X"
 	id = "radx"
-	description = "Reduces massive amounts of radiation and some toxin damage."
+	description = "Flushes radiation and toxic materials from the body. Doesn't do the latter quite as well as the former."
 	reagent_state = LIQUID
 	color = "#ff6100"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -1732,6 +1732,6 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 	. = 1
 
 /datum/reagent/medicine/antivenom/overdose_process(mob/living/M)
-	M.adjustToxLoss(4*REM, 0) 
+	M.adjustToxLoss(4*REM, 0)
 	..()
 	. = 1

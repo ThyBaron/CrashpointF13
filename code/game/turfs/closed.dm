@@ -56,13 +56,13 @@
 	var/atom/movable/fullDark
 	bullet_bounce_sound = null
 	name = "Crashpoint"
-	desc = "The wasteland is calling.."
+	desc = "You're laughing. You're fingering a slave when you're supposed to be mining, and you're laughing."
 	//icon = 'icons/blank_title.png'
 	layer = FLY_LAYER
 
 /turf/closed/indestructible/splashscreen/New()
 	icon = 'icons/fallout/misc/lobby.dmi'
-	icon_state = "title[rand(1,13)]"
+	icon_state = "title[rand(1,5)]"
 
 	src.fullDark = new/atom/movable{
 		icon = 'icons/fallout/misc/lobby.dmi' //Replace with actual icon
@@ -95,7 +95,7 @@
 	return
 
 /turf/closed/indestructible/splashscreen/proc/chooseIcon()
-	var/chosen_icon = "title[rand(1,13)]"
+	var/chosen_icon = "title[rand(1,5)]"
 	if(icon_state != chosen_icon)
 		icon_state = chosen_icon
 	else

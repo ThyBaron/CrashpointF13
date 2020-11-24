@@ -1,6 +1,6 @@
 /obj/item/grenade/smokebomb
 	name = "smoke grenade"
-	desc = "The word 'Dank' is scribbled on it in crayon."
+	desc = "An old signal grenade. This seems like it'd suffice as a smoke screen laying device, but that wasn't the original purpose of it."
 	icon = 'icons/obj/grenade.dmi'
 	icon_state = "smokewhite"
 	det_time = 20

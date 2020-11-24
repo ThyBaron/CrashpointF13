@@ -577,6 +577,16 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("???",								/obj/item/toy/syndicateballoon,									3000)
 		)
 
+/obj/machinery/mineral/wasteland_vendor/food
+	name = "Wasteland Vending Machine - Food"
+	icon_state = "generic_idle"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Mutfruit",					/obj/item/reagent_containers/food/snacks/grown/mutfruit,				10),
+		new /datum/data/wasteland_equipment("Agave Leaves",	/obj/item/reagent_containers/food/snacks/grown/agave,								20),
+		new /datum/data/wasteland_equipment("Broc Flower",						/obj/item/reagent_containers/food/snacks/grown/broc,			30),
+		new /datum/data/wasteland_equipment("Fungus",	/obj/item/reagent_containers/food/snacks/grown/fungus,									40)
+		)
+
 /datum/data/wasteland_equipment
 	var/equipment_name = "generic"
 	var/equipment_path = null

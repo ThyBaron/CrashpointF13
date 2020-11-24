@@ -255,13 +255,10 @@ Wastelander
 	access = list()		//we can expand on this and make alterations as people suggest different loadouts
 	minimal_access = list()
 	loadout_options = list(
-	/datum/outfit/loadout/vault_refugee,
 	/datum/outfit/loadout/petro,
 	/datum/outfit/loadout/follower,
 	/datum/outfit/loadout/merchant,
-	/datum/outfit/loadout/gambler,
-	/datum/outfit/loadout/citizen,
-	/datum/outfit/loadout/slave)
+	/datum/outfit/loadout/gambler)
 
 /datum/outfit/job/wasteland/f13wastelander
 	name = "Wastelander"
@@ -304,13 +301,6 @@ Wastelander
 	/obj/item/gun/ballistic/revolver/zipgun, \
 	/obj/item/gun/ballistic/revolver/pipe_rifle)
 
-/datum/outfit/loadout/vault_refugee
-	name = "Vaultie"
-	uniform = /obj/item/clothing/under/f13/vault
-	gloves = /obj/item/pda
-	shoes = /obj/item/clothing/shoes/jackboots
-	gloves = /obj/item/clothing/gloves/fingerless
-
 
 /datum/outfit/loadout/petro
 	name = "Petro"
@@ -346,22 +336,6 @@ Wastelander
 	head = list(/obj/item/clothing/head/fedora,
  	/obj/item/clothing/head/f13/gambler)
 
-/datum/outfit/loadout/citizen
-	name = "Legion Citizen"		//here I go showing my bias again
-	uniform = /obj/item/clothing/under/f13/doctor
-	shoes = /obj/item/clothing/shoes/f13/fancy
-	suit = /obj/item/clothing/suit/curator
-	head = /obj/item/clothing/head/scarecrow_hat
-	gloves = /obj/item/clothing/gloves/color/black
-	glasses = /obj/item/clothing/glasses/welding
-
-/datum/outfit/loadout/slave
-	name = "NCR Citizen"
-	uniform = /obj/item/clothing/under/f13/caravaneer
-	shoes = /obj/item/clothing/shoes/f13/tan
-	head = /obj/item/clothing/head/f13/cowboy
-	gloves = /obj/item/clothing/gloves/color/brown
-	glasses = /obj/item/clothing/glasses/orange
 
 /*
 Punished Raider

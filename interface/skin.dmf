@@ -50,7 +50,7 @@ menu "menu"
 window "mainwindow"
 	elem "mainwindow"
 		type = MAIN
-		pos = 272,4
+		pos = 281,0
 		size = 640x440
 		anchor1 = none
 		anchor2 = none
@@ -143,14 +143,12 @@ window "mapwindow"
 	elem "mapwindow"
 		type = MAIN
 		pos = 281,0
-		size = 656x538
+		size = 640x480
 		anchor1 = none
 		anchor2 = none
 		background-color = #4b5320
 		saved-params = "pos;size;is-minimized;is-maximized"
-		statusbar = false
 		is-pane = true
-		outer-size = 656x519
 	elem "map"
 		type = MAP
 		pos = 0,0
@@ -167,14 +165,12 @@ window "infowindow"
 	elem "infowindow"
 		type = MAIN
 		pos = 281,0
-		size = 656x538
+		size = 640x480
 		anchor1 = none
 		anchor2 = none
 		background-color = #4b5320
 		saved-params = "pos;size;is-minimized;is-maximized"
-		statusbar = false
 		is-pane = true
-		outer-size = 656x519
 	elem "info"
 		type = CHILD
 		pos = 0,30
@@ -268,7 +264,6 @@ window "outputwindow"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
-		outer-size = 654x494
 	elem "browseroutput"
 		type = BROWSER
 		pos = 0,0
@@ -294,14 +289,12 @@ window "statwindow"
 	elem "statwindow"
 		type = MAIN
 		pos = 281,0
-		size = 656x538
+		size = 640x480
 		anchor1 = none
 		anchor2 = none
 		background-color = #4b5320
 		saved-params = "pos;size;is-minimized;is-maximized"
-		statusbar = false
 		is-pane = true
-		outer-size = 656x519
 	elem "stat"
 		type = INFO
 		pos = 0,0

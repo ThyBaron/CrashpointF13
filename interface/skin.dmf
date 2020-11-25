@@ -50,7 +50,7 @@ menu "menu"
 window "mainwindow"
 	elem "mainwindow"
 		type = MAIN
-		pos = 281,0
+		pos = 272,4
 		size = 640x440
 		anchor1 = none
 		anchor2 = none
@@ -58,9 +58,11 @@ window "mainwindow"
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Crashpoint 13"
-		icon = 'icons\\deathclawlogo.png'
+		icon = 'icons\\born.png'
 		macro = "default"
 		menu = "menu"
+		outer-size = 656x518
+		inner-size = 640x459
 	elem "split"
 		type = CHILD
 		pos = 3,0
@@ -141,12 +143,14 @@ window "mapwindow"
 	elem "mapwindow"
 		type = MAIN
 		pos = 281,0
-		size = 640x480
+		size = 656x538
 		anchor1 = none
 		anchor2 = none
 		background-color = #4b5320
 		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
 		is-pane = true
+		outer-size = 656x519
 	elem "map"
 		type = MAP
 		pos = 0,0
@@ -163,14 +167,14 @@ window "infowindow"
 	elem "infowindow"
 		type = MAIN
 		pos = 281,0
-		size = 640x480
+		size = 656x538
 		anchor1 = none
 		anchor2 = none
 		background-color = #4b5320
 		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
 		is-pane = true
-		outer-size = 656x538
-		inner-size = 640x499
+		outer-size = 656x519
 	elem "info"
 		type = CHILD
 		pos = 0,30
@@ -290,14 +294,14 @@ window "statwindow"
 	elem "statwindow"
 		type = MAIN
 		pos = 281,0
-		size = 640x480
+		size = 656x538
 		anchor1 = none
 		anchor2 = none
 		background-color = #4b5320
 		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
 		is-pane = true
-		outer-size = 656x538
-		inner-size = 640x499
+		outer-size = 656x519
 	elem "stat"
 		type = INFO
 		pos = 0,0
@@ -310,3 +314,4 @@ window "statwindow"
 		saved-params = ""
 		tab-text-color = #ffffff
 		tab-background-color = #4b5320
+

@@ -43,6 +43,12 @@
 "aaj" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
+"aak" = (
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/tunnel)
 "aal" = (
 /obj/effect/landmark/latejoin,
 /turf/open/indestructible/ground/outside/road{
@@ -15652,9 +15658,11 @@
 	},
 /area/f13/building)
 "aOW" = (
-/obj/structure/sign/poster/prewar,
-/turf/closed/wall/r_wall/rust,
-/area/f13/caves)
+/obj/effect/decal/cleanable/salt,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/tunnel)
 "aOX" = (
 /obj/effect/spawner/lootdrop/ammo,
 /turf/open/indestructible/ground/outside/desert,
@@ -53191,11 +53199,11 @@ acv
 adr
 afj
 aae
-aaA
+bCt
 aPo
 aPG
 aPo
-aaA
+bCt
 aLK
 bmF
 bmF
@@ -53448,11 +53456,11 @@ acP
 afj
 aae
 aae
-aaA
+bCt
 boU
 boU
 boU
-aaA
+bCt
 aLK
 bji
 bjx
@@ -53705,11 +53713,11 @@ aat
 aat
 aae
 aae
-aaA
+bCt
 bCt
 aMF
 bCt
-aaA
+bCt
 aae
 bji
 boS
@@ -53961,8 +53969,8 @@ aat
 aat
 aat
 aae
-aaA
-aaA
+bCt
+bCt
 aLZ
 aMI
 aLZ
@@ -54218,12 +54226,12 @@ aib
 aat
 aae
 aae
-aaA
+bCt
 bCt
 aLZ
 aLW
 aLZ
-aaA
+bCt
 aae
 aae
 aae
@@ -54475,17 +54483,17 @@ aat
 aat
 aae
 aae
-aaA
+bCt
 bCt
 aLZ
 aOC
 aLZ
-aaA
+bCt
 aae
 aae
-aaA
-aaA
-aaA
+bCt
+bCt
+bCt
 aeD
 aeD
 aeD
@@ -54732,15 +54740,15 @@ aat
 aat
 aae
 aae
-aaA
+bCt
 bCt
 bCt
 aMF
 bCt
-aaA
-aaA
-aaA
-aOW
+bCt
+bCt
+bCt
+bCt
 aPN
 aPf
 afX
@@ -54989,14 +54997,14 @@ aat
 aae
 aae
 aae
-aaA
+bCt
 aLZ
 aLZ
 aLZ
 aNM
 bCt
-aaA
-aaA
+bCt
+bCt
 aOM
 aLZ
 aNe
@@ -55246,12 +55254,12 @@ aat
 aae
 aae
 aae
-aaA
+bCt
 aNA
+aOW
 aLZ
 aLZ
-aLZ
-aLZ
+aak
 aOC
 aLZ
 aLZ
@@ -55503,8 +55511,8 @@ aat
 aae
 aae
 aae
-aaA
-aaA
+bCt
+bCt
 aNA
 aLZ
 aLZ
@@ -55761,14 +55769,14 @@ aae
 aae
 aae
 aae
-aaA
-aOW
+bCt
+bCt
 aLZ
 aLZ
 aLZ
 aLZ
 aLZ
-aLZ
+aak
 aLZ
 aON
 aeD
@@ -56019,16 +56027,16 @@ aae
 aae
 aae
 aae
-aaA
-aaA
 bCt
 bCt
 bCt
 bCt
 bCt
 bCt
-aaA
-aaA
+bCt
+bCt
+bCt
+bCt
 aae
 aae
 aae
